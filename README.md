@@ -3,6 +3,12 @@ String Generator
 
 String Generator generates random strings.
 
+Installation
+------------
+```
+npm install string-gen
+```
+
 API Usage
 ---------
 
