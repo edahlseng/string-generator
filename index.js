@@ -15,5 +15,10 @@ function randomAlphaNumericString(length) {
 	return randomString(length, "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789");
 }
 
+function randomHex(length) {
+	return randomString(length, "0123456789ABCDEF");
+}
+
 module.exports.randomString = randomString;
 module.exports.randomAlphaNumericString = randomAlphaNumericString;
+module.exports.randomHex = randomHex;

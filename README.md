@@ -42,3 +42,13 @@ Parameters:
 |Parameter|Type|Description|
 |---------|----|-----------|
 |length|number|The length of string to generate|
+
+**stringGenerator.randomHex(length)**
+
+Generates a random hex string of length `length`.
+
+Parameters:
+
+|Parameter|Type|Description|
+|---------|----|-----------|
+|length|number|The length of string to generate|
