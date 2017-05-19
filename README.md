@@ -22,8 +22,6 @@ console.log(stringGenerator.randomString(15, "abcdefghijklmnopqrstuvwxyz"));
 console.log(stringGenerator.randomAlphaNumericString(15));
 ```
 
-Note: session middleware must be added before the login in order for it to work correctly
-
 ### Available functions
 
 **stringGenerator.randomString(length, characters)**
